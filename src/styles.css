@@ -1,0 +1,61 @@
+html,
+body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.toast-container {
+    position: fixed;
+    z-index: 9999 !important; /* عشان تكون فوق كل العناصر */
+    font-family: 'Arial', sans-serif; /* نوع الخط */
+}
+.toast-top-right {
+    top: 12px !important;
+    right: 12px !important;
+}
+
+/* Custom Toast */
+.toast-success {
+    background-color: #28a745 !important; /* اللون الأخضر للتوست الناجح */
+    color: white !important; /* اللون الأبيض للنص */
+    border-radius: 5px; /* الزوايا تكون مدورة */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* ظل خفيف */
+  }
+  
+  .toast-error {
+    background-color: #dc3545 !important; /* اللون الأحمر للتوست الخطأ */
+    color: white !important;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .toast-info {
+    background-color: #17a2b8 !important; /* اللون الأزرق للتوست المعلومات */
+    color: white !important;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .toast-warning {
+    background-color: #ffc107 !important; /* اللون الأصفر للتوست التحذير */
+    color: black !important;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Customizing the Progress Bar */
+  .toast-progress-bar {
+    height: 4px !important;
+    background-color: #007bff; /* لون الشريط */
+  }
+  
+  /* Custom Close Button */
+  .toast-close-button {
+    color: white !important;
+    font-size: 18px !important;
+    background-color: transparent !important;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .toast-close-button:hover {
+    color: #f8f9fa !important; /* لون زرار الإغلاق عند التمرير عليه */
+  }

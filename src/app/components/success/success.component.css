@@ -1,0 +1,54 @@
+/* styles.css */
+.success-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f8ff; /* لون خلفية فاتح */
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .success-page h2 {
+    font-size: 2rem;
+    color: #28a745; /* أخضر فاتح */
+    margin-bottom: 20px;
+    animation: bounce 1s infinite alternate;
+  }
+  
+  .success-page p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .success-page a {
+    font-size: 1.2rem;
+    color: #007bff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    background-color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .success-page a:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  /* إضافة تأثير اهتزاز للـ h2 */
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
